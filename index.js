@@ -10,11 +10,16 @@ function setCart(c) {
 }
 
 function addToCart(item) {
- // write your code here
+  
+ var price = math.random() * 100
+ cart.push()
 }
 
 function viewCart() {
-  // write your code here
+  if (cart.length === 0)
+  return "Your shopping cart is empty"
+  
+  return `In your cart, you have ${}
 }
 
 function total() {
@@ -26,5 +31,9 @@ function removeFromCart(item) {
 }
 
 function placeOrder(cardNumber) {
-  // write your code here
+  if cart has something 
+  return `Your total cost is ${total}, which will be charged to the card ${cardNumber}
+  
+  if
+  return "Sorry, we don't have a credit card on file for you."
 }
